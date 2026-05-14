@@ -1,0 +1,8 @@
+deap
+numpy
+scipy
+sympy
+tqdm
+pandas
+numba
+pysr

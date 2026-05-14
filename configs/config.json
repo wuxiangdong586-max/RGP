@@ -1,0 +1,94 @@
+{
+  "task": {
+    "task_list": [
+      "Nguyen-1",
+      "Nguyen-2",
+      "Nguyen-3",
+      "Nguyen-4",
+      "Nguyen-5",
+      "Nguyen-6",
+      "Nguyen-7",
+      "Nguyen-8",
+      "Nguyen-9",
+      "Nguyen-10",
+      "Nguyen-11",
+      "Nguyen-12",
+      "Nguyen-12*",
+      "Livermore-1",
+      "Livermore-2",
+      "Livermore-3",
+      "Livermore-4",
+      "Livermore-5",
+      "Livermore-6",
+      "Livermore-7",
+      "Livermore-8",
+      "Livermore-9",
+      "Livermore-10",
+      "Livermore-11",
+      "Livermore-12",
+      "Livermore-13",
+      "Livermore-14",
+      "Livermore-15",
+      "Livermore-16",
+      "Livermore-17",
+      "Livermore-18",
+      "Livermore-19",
+      "Livermore-20",
+      "Livermore-21",
+      "Livermore-22",
+      "R0-1",
+      "R0-2",
+      "R0-3",
+      "R*-1",
+      "R*-2",
+      "R*-3",
+      "Feynman_test"
+    ],
+    "seed_num": 10,
+    "seed_shift": 0
+  },
+  "modules": {
+    "exploration": {
+      "min_L": 3,
+      "max_L": 5
+    },
+    "exploitation": {
+      "min_L": 3,
+      "max_L": 7,
+      "top_k_common": 5,
+      "hof_top_k_for_mining": 20,
+      "quality_top_percent": 0.5
+    },
+    "validation": {
+      "enable_trig_nesting": true,
+      "enable_exp_log_adjacent": true,
+      "enable_exp_log_trig": true
+    },
+    "gene_injection": {
+      "fuse_n": 3,
+      "fuse_m": 3,
+      "inject_prob": 0.5
+    },
+    "global_hof_size": 50,
+    "max_explore_batch": 20
+  },
+  "gp": {
+    "params": {
+      "pops": 500,
+      "times": 30,
+      "tournsize": 5,
+      "cxpb": 0.5,
+      "mutpb": 0.5,
+      "max_height": 10,
+      "max_size": 32,
+      "hof_size": 30,
+      "threshold": 1e-10
+    },
+    "num_rounds": 4000,
+    "initial_random_size": 500,
+    "output_dir": "output"
+  },
+  "parallel": {
+    "max_workers": 5
+  }
+}
