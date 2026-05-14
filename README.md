@@ -2,7 +2,7 @@
 
 This repository contains the official implementation of the experimental framework for the paper: **"Progressive Subexpression Reuse in Symbolic Regression: Insights from RL-based Search and a Genetic Programming Realization"**.
 
-The framework is a fully automated, Reinforcement Genetic Programming model. It leverages an exploration-exploitation mechanism to iteratively extract and inject high-frequency sub-expressions (mathematical building blocks) back into the evolutionary process, dramatically improving the recovery rate and convergence speed for symbolic regression tasks.
+The framework is a Reinforcement Genetic Programming implementation for symbolic regression. It leverages an exploration-exploitation mechanism to iteratively extract and inject high-frequency sub-expressions (mathematical building blocks) back into the evolutionary process, dramatically improving the recovery rate and convergence speed for symbolic regression tasks.
 
 ---
 
